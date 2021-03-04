@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "aboutMe": "About Me",
+        "skills": "My Skills",
+        "realisations": "My Work",
+        "contact": "Contact"
+    },
+    "intro": {
+        "pretext": "Hello ! I'm ",
+        "name": "Bertrand Dossogne","posttext": ", a web-developer and maths teacher."
+    },
+    "aboutMe": {
+        "title": "About Me",
+        "nav": {
+            "resume": "Presentation",
+            "formation": "My Background",
+            "hobbies": "My Hobbies"
+        },
+        "resume": [
+            "I'm Bertrand, a 24 years old guy from Belgium curious about the world who likes to learn and help others. I started programming because I felt it could be a game-changer in the educational system, but it is still not well-used. My main focuses are a greener, more accessible, open source, privacy-oriented web and better ways to learn.",
+            "I have interests in a lot of stuff, such as are environment, nature, scouts, science and mathematics, game design,… and am always open to discover something new.",
+            "Besides programming, I'm learning to be a nature guide and I've been a scoutmaster for 8 years."
+        ]
+    },
+    "skills": {
+        "title": "My Skills"
+    },
+    "realisations": {
+        "title": "My Work"
+    },
+    "contact": {
+        "title": "Contact Me"
+    }
+}

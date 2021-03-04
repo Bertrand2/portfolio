@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bertrand Dossogne - portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="nav-wrapper">
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-icon">
+                        <a class="nav__link" href="#">
+                            <div class="nav__image-wrapper">
+                                <img src="./assets/bandicoot.jpg" alt="my picture" class="nav__image">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__link" href="#aboutMe">
+                            {{lang.aboutMe}}
+                        </a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__link" href="#skills">
+                            {{lang.skills}}
+                        </a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__link" href="#realisations">
+                            {{lang.realisations}}
+                        </a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__link" href="#contact">
+                            {{lang.contact}}
+                        </a>
+                    </li>
+                </ul>
+                <select 
+                    name="langSelect" 
+                    id="langSelect" 
+                    class="nav__lang"
+                    v-on:change="changeLang(selected)"
+                    v-model="selected">
+                    <option 
+                        v-for="option in options"
+                        v-bind:value="option.value">
+                        {{option.text}}
+                    </option>
+                </select>
+            </nav>
+        </div>
+        <section class="intro" id="intro">
+            <div class="intro__left">
+                <div class="intro__image-wrapper">
+                    <img src="./assets/bandicoot.jpg" alt="my picture" class="intro__image">
+                </div>
+            </div>
+            <div class="intro__right">
+                <h1 class="intro__title">
+                    {{lang.pretext}}<em>{{lang.name}}</em>{{lang.posttext}}
+                </h1>
+            </div>
+        </section>
+        <section class="about-me" id="aboutMe">
+            <h1 class="section-title">{{lang.title}}</h1>
+            <ul class="about-me__list">
+                <li class="about-me__list-item active">{{lang.nav.resume}}</li>
+                <li class="about-me__list-item">{{lang.nav.formation}}</li>
+                <li class="about-me__list-item">{{lang.nav.hobbies}}</li>
+            </ul>
+            <div class="about-me__content">
+                <article class="visible">
+                    <p class="about-me__text" v-for="line in lang.resume">{{line}}</p>
+                </article>
+                <article>
+    
+                </article>
+                <article>
+    
+                </article>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h1 class="section-title">{{lang.title}}</h1>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+        <section class="realisations" id="realisations">
+            <h1 class="section-title">{{lang.title}}</h1>
+
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="section-title">{{lang.title}}</h1>
+
+        </section>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

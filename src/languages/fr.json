@@ -1,0 +1,35 @@
+{
+    "nav": {
+        "aboutMe": "À Propos",
+        "skills": "Mes Compétences",
+        "realisations": "Mon Travail",
+        "contact": "Contact"
+    },
+    "intro": {
+        "pretext": "Bonjour ! Je suis ",
+        "name": "Bertrand Dossogne",
+        "posttext":", un développeur web et prof de maths." 
+    },
+    "aboutMe": {
+        "title": "À propos de moi",
+        "nav": {
+            "resume": "Présentation",
+            "formation": "Mon Parcours",
+            "hobbies": "Mes Hobbys"
+        },
+        "resume": [
+            "Je suis Bertrand, un Belge de 24 ans curieux qui aime apprendre et enseigner aux autres. J'ai commencé à programmer car je suis persuadé que cela peut être une plus-value exceptionnelle pour le système éducatif, qui à mon sens ne l'exploite pas correctement. Je m'intéresse principalement à un web plus écologique, plus accessible, open-source et plus respectueux de la vie privée, ainsi qu'à de meilleurs moyens d'apprentissage.",
+            "Je suis intéressé par de nombreuses choses : questions environnementales, nature, scoutisme, sciences et mathématiques, game design,… et je suis toujours ouvert pour de nouvelles découvertes.",
+            "À part programmer, je suis des cours de guide nature. Je suis également animateur scout depuis maintenant 8 ans."
+        ]
+    },
+    "skills": {
+        "title": "Mes Compétences"
+    },
+    "realisations": {
+        "title": "Mon Travail"
+    },
+    "contact": {
+        "title": "Contactez-moi"
+    }
+}
