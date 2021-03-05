@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Bertrand2/portfolio#readme",
   "dependencies": {
     "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4"
+    "vue-hot-reload-api": "^2.3.4",
+    "vuex": "^3.6.2"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
