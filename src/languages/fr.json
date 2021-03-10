@@ -27,7 +27,7 @@
                 "date": "Juin 2013",
                 "type": "diploma",
                 "title": "CESS",
-                "desc": "Obtention de mon CESS"
+                "desc": "Obtention de mon CESS, option mathématiques et sciences"
             },
             {
                 "date": "2013 - 2016",
@@ -51,7 +51,7 @@
                 "date": "Février 2019",
                 "type": "diploma",
                 "title": "BEPS",
-                "desc": "Brevet Europpéen de Premier Secours"
+                "desc": "Brevet Europpéen de Premier Secours délivré par la Croix-Rouge après plusieurs jours d'apprentissage"
             },
             {
                 "date": "Septembre 2019",
@@ -82,6 +82,33 @@
                 "type": "study",
                 "title": "BeCode",
                 "desc": "Formation intensive de 7 mois en développement web"
+            }
+        ],
+        "hobbies": [
+            {
+                "name": "Scoutisme",
+                "desc": "Je suis scout depuis 2002, c'est à dire depuis que j'ai 6 ans. Pour les valeurs que cela m'a apporté, pour la maturité et l'autonomie que cela m'aura enseigné, le scoutisme est sans aucun doute l'activité qui aura le plus façonné ma vision du monde. Après avoir terminé mon parcours en tant \"qu'animé\" en 2013, j'ai décidé de transmettre cette passion et suis animateurs depuis lors.",
+                "icon": "scoutism"
+            },
+            {
+                "name": "Jeux vidéo",
+                "desc": "Depuis mon plus jeune âge, les jeux vidéo ont toujours occupé une grande place dans mon cœur. Les prouesses techniques comme le game-design, la direction artistique ou encore les techniques de programmation sont autant d'aspects qui me fascinent. Sur ces aspects, ma préférence va vers les productions de Nintendo ainsi que les jeux indépendants.",
+                "icon": "videogame"
+            },
+            {
+                "name": "Jeux de société",
+                "desc": "Tout comme les jeux vidéos, les jeux de société me passionnent à la fois pour l'intelligence qui est derrière le game design, mais également pour le rassemblement social qu'ils créent. Je suis toujours adepte de découvrir de nouveaux jeux ainsi que de nouvelles manière de jouer, bien que ma préférence se porte sur les jeux de coopération.",
+                "icon": "boardgame"
+            },
+            {
+                "name": "Pixel art",
+                "desc": "Vous aurez peut-être pu le remarquer en voyant les quelques images présentes sur ce site. Cela vient-il du fait que j'ai commencé les jeux vidéos avec la gameboy advance, ou encore dû au fait que le dessin \"classique\" n'a jamais été mon fort ? Probablement un peu des deux. Bien que je n'aie pas été productif dans ce domaine, je suis un grand fan du minimalisme et de la complexité qu'offre le pixel art.",
+                "icon": "pixelart"
+            },
+            {
+                "name": "Construire mes valeurs",
+                "desc": "Drôle de nom pour un hobby. Et pourtant ! J'ai conscience que personne n'est parfait, moi en premier. Mettant un point d'honneur sur mes valeurs lors de toute prise de décision, je pense qu'il est nécessaire de me documenter et de remettre régulièrement en question mes opinions afin d'adopter l'attitude la plus rationnelle possible. Actuellement, je place aux centre de mon attention les questions environnementales et de droit à la vie privée.",
+                "icon": "opinions"
             }
         ]
     },

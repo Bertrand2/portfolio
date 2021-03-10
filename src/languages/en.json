@@ -26,7 +26,7 @@
                 "date": "June 2013",
                 "type": "diploma",
                 "title": "CESS",
-                "desc": "High school diploma"
+                "desc": "High school diploma, science and maths option"
             },
             {
                 "date": "2013 - 2016",
@@ -44,13 +44,13 @@
                 "date": "November 2016",
                 "type": "diploma",
                 "title": "Youth facilitator certificate",
-                "desc": "(Brevet d'animateur en centre de vacances) as a scoutmaster via the \"Scouts et Guides Pluralistes\""
+                "desc": "Certificate obtained as a scoutmaster via the \"Scouts et Guides Pluralistes\""
             },
             {
                 "date": "February 2019",
                 "type": "diploma",
                 "title": "European certified Red Cross First Aid",
-                "desc": "Brevet Europpéen de Premier Secours"
+                "desc": "Certificate delivered by the Red Cross after a few days training, where I learned to react to multiple crisis situations"
             },
             {
                 "date": "September 2019",
@@ -81,6 +81,33 @@
                 "type": "study",
                 "title": "BeCode",
                 "desc": "Intensive training of 7 months in web development in Liège"
+            }
+        ],
+        "hobbies": [
+            {
+                "name": "Scouts",
+                "desc": "I've been a scout since I was 6, in 2002. For the moral that it brought me and the maturity and autonomy it thought me, scoutism is without a doubt the hobby that have had the biggest impact on my vision of the world. As I finished my journey in 2013, I decided to transmit that passion to others and have been a scoutmaster ever since.",
+                "icon": "scoutism"
+            },
+            {
+                "name": "Video games",
+                "desc": "Since I'm young, video games always have occupied a big place in my heart. The technical prowesses such as game design, artistic direction or programming techniques are some aspects among others that fascinate me. My personnal preferences goes to Nintendo games as well as indie titles.",
+                "icon": "videogame"
+            },
+            {
+                "name": "Board games",
+                "desc": "Board games entertain me and fascinate me as much as video game for the cleverness that lies behind the intricate game mechanics and also for the bond it can create between players. I'm always up to discover some new games or new ways to play even though my favorite category of games is cooperative gameplay.",
+                "icon": "boardgame"
+            },
+            {
+                "name": "Pixel art",
+                "desc": "You might have noticed that just by seeing the few images that are on this website. Does it come from the fact that I started video games or is it because I've never been a good drawer ? Probably a bit of both. Even though I've not made a lot of pixel art myself, I enjoy making some and am a fan of the minimalism and the complexity it has to offer.",
+                "icon": "pixelart"
+            },
+            {
+                "name": "Build my opinions",
+                "desc": "Weird name for a hobby, isn't it ? Yet, I'm aware that nobody is perfect, myself first. According strong importance to my opinions in my everyday decision-making, I believe it's necessary to continuously learn, update and rethink those thoughts in order to make my attitude the most rational. These days, I've been actively documenting on environmental questions as well as the right to privacy.",
+                "icon": "opinions"
             }
         ]
     },

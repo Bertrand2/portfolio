@@ -282,7 +282,6 @@ section {
 .about-me article {
   box-sizing: border-box;
   position: relative;
-  z-index: -1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -330,7 +329,8 @@ section {
   }
 }
 @media screen and (min-width: 450px) {
-  .about-me__timeitem:nth-child(odd) .about-me__timeitem-title {
+  .about-me__timeitem:nth-child(odd) .about-me__timeitem-title,
+.about-me__timeitem:nth-child(odd) .about-me__timeitem-diploma {
     left: 2rem;
   }
 }
@@ -346,7 +346,8 @@ section {
   }
 }
 @media screen and (min-width: 450px) {
-  .about-me__timeitem:nth-child(even) .about-me__timeitem-title {
+  .about-me__timeitem:nth-child(even) .about-me__timeitem-title,
+.about-me__timeitem:nth-child(even) .about-me__timeitem-diploma {
     right: 2rem;
     text-align: right;
   }
@@ -369,12 +370,12 @@ section {
 }
 @media screen and (min-width: 450px) {
   .about-me__timeitem {
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
   }
 }
 @media screen and (min-width: 800px) {
   .about-me__timeitem {
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
   }
 }
 .about-me__timeitem-dot {
@@ -403,7 +404,7 @@ section {
     max-width: none;
   }
 }
-.about-me__timeitem-title {
+.about-me__timeitem-title, .about-me__timeitem-diploma {
   position: relative;
   width: max-content;
   padding: 0.2rem;
@@ -413,16 +414,20 @@ section {
   background-color: #35495e;
 }
 @media screen and (min-width: 450px) {
-  .about-me__timeitem-title {
+  .about-me__timeitem-title, .about-me__timeitem-diploma {
     position: absolute;
-    bottom: -0.4rem;
-    max-width: 12rem;
+    bottom: -0.6rem;
+    max-width: 15rem;
   }
 }
 @media screen and (min-width: 800px) {
-  .about-me__timeitem-title {
+  .about-me__timeitem-title, .about-me__timeitem-diploma {
     max-width: none;
   }
+}
+.about-me__timeitem-diploma {
+  color: #35495e;
+  background-color: #87f070;
 }
 .about-me__timeitem-desc {
   position: relative;
@@ -436,7 +441,7 @@ section {
 @media screen and (min-width: 450px) {
   .about-me__timeitem-desc {
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     max-width: 14rem;
   }
 }
@@ -444,4 +449,52 @@ section {
   .about-me__timeitem-desc {
     max-width: 28rem;
   }
+}
+.about-me__hobbies {
+  align-items: center !important;
+}
+.about-me__hobbies__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+}
+.about-me__hobbies__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 2rem;
+  background-color: #87f070;
+  clip-path: polygon(0 50%, 50% 100%, 100% 50%, 50% 0);
+  transition: all 0.6s;
+  cursor: help;
+}
+.about-me__hobbies__list-item:hover {
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+}
+.about-me__hobbies__list-item:hover img {
+  scale: 1.5;
+}
+.about-me__hobbies__list-item.active {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+}
+.about-me__hobbies__icon {
+  width: 3.2rem;
+  image-rendering: crisp-edges;
+  transition: all 0.6s;
+}
+.about-me__hobbies__name {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.about-me__hobbies__desc {
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 3rem;
 }

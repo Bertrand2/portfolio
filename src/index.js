@@ -11,6 +11,14 @@ const languages = {
 
 let selectedLang = languages["frFile"];
 
+import icons from "./assets/hobbies/*.png";
+console.log(icons);
+// import iconBoardgame from "./assets/hobbies/boardgame.png";
+// import iconOpinion from "./assets/hobbies/opinions.png";
+// import iconPixelart from "./assets/hobbies/pixelart.png";
+// import iconScoutism from "./assets/hobbies/scoutism.png";
+// import iconVideogame from "./assets/hobbies/videogame.png";
+
 Vue.use(Vuex);
 
 const nav = new Vue({
@@ -60,8 +68,9 @@ const aboutMe = new Vue({
     el: "#aboutMe",
     store: store,
     data: {
-        "lang": selectedLang.aboutMe,
-        "frame": "resume"
+        "frame": "resume",
+        "hobbyId": 0,
+        "icons": icons
     },
     computed: {
         getLang(){
@@ -72,6 +81,10 @@ const aboutMe = new Vue({
         display(newFrame) {
             // const self = this;
             this.frame = newFrame;
+        },
+        viewHobby(hobby) {
+            // const self = this;
+            this.hobbyId = hobby;
         }
     }
 });
@@ -80,7 +93,6 @@ const skills = new Vue({
     el: "#skills",
     store: store,
     data: {
-        "lang": selectedLang.skills,
     },
     computed: {
         getLang(){
@@ -93,7 +105,6 @@ const realisations = new Vue({
     el: "#realisations",
     store: store,
     data: {
-        "lang": selectedLang.realisations,
     },
     computed: {
         getLang(){

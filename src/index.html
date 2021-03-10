@@ -102,7 +102,14 @@
                                 {{moment.date}}
                             </p>
                             <div class="about-me__timeitem-dot"></div>
-                            <p class="about-me__timeitem-title">
+                            <p 
+                                class="about-me__timeitem-diploma"
+                                v-if="moment.type == 'diploma'">
+                                {{moment.title}}
+                            </p>
+                            <p 
+                                class="about-me__timeitem-title" 
+                                v-else>
                                 {{moment.title}}
                             </p>
                             <p class="about-me__timeitem-desc">
@@ -114,7 +121,25 @@
                 <article
                     class="about-me__hobbies"
                     v-else-if="frame == 'hobbies'">
-                    2
+                    <ul class="about-me__hobbies__list">
+                        <li 
+                            v-for="(hobby, index) in getLang.hobbies"
+                            v-on:click="viewHobby(index)"
+                            v-bind:title="hobby.name"
+                            v-bind:class="{ active: index==hobbyId }"
+                            class="about-me__hobbies__list-item">
+                            <img
+                                v-bind:src="icons[hobby.icon]"
+                                v-bind:alt="hobby.icon"
+                                class="about-me__hobbies__icon">
+                        </li>
+                    </ul>
+                    <h2 class="about-me__hobbies__name">
+                        {{getLang.hobbies[hobbyId].name}}
+                    </h2>
+                    <p class="about-me__hobbies__desc">
+                        {{getLang.hobbies[hobbyId].desc}}
+                    </p>
                 </article>
             </div>
         </section>
