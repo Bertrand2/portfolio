@@ -113,7 +113,67 @@
         ]
     },
     "skills": {
-        "title": "Mes Compétences"
+        "title": "Mes Compétences",
+        "skills": [
+            {
+                "name": "HTML",
+                "icon": "html",
+                "badges": [
+                    {
+                        "name": "HTML - level 2",
+                        "link": "https://api.badgr.io/public/assertions/eKuMXqHwRj2xJfugga2jGw?identity__email=dossogne.bertrand%40gmail.com"
+                    }
+                ]
+            },
+            {
+                "name": "CSS",
+                "icon": "css",
+                "badges": [
+                    {
+                        "name": "CSS - level 2",
+                        "link": "https://api.badgr.io/public/assertions/q1wUo2JaRgqpNq45I_LpjQ?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "Automated Workflow (SASS)",
+                        "link": "https://api.badgr.io/public/assertions/7u1ACbihQHG6TQwk5PWceg?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "CSS framework - level 1",
+                        "link": "https://api.badgr.io/public/assertions/Oh0UjMDwT_qggHp63tZY-A?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "Responsive skills",
+                        "link": "https://api.badgr.io/public/assertions/WTfrZ8mOQfG6jwwyejQX7w?identity__email=dossogne.bertrand%40gmail.com"
+                    }
+                ]
+            },
+            {
+                "name": "Javascript",
+                "icon": "javascript",
+                "badges": [
+                    {
+                        "name": "JS - level 2",
+                        "link": "https://api.badgr.io/public/assertions/C_9QGS76QIqghNEgFkkflg?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "Oriented-Object Programming",
+                        "link": "https://api.badgr.io/public/assertions/W4W6GfKOSdG0mSRX8wlPMg?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "Third-party libraries",
+                        "link": "https://api.badgr.io/public/assertions/ZcBoak5mS1KOyYa1i72wjg?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "AJAX - level 2",
+                        "link": "https://api.badgr.io/public/assertions/67vklOivRLqWG5YvsBjwIw?identity__email=dossogne.bertrand%40gmail.com"
+                    },
+                    {
+                        "name": "Web APIs - level 1",
+                        "link": "https://api.badgr.io/public/assertions/LTJAviavSJemFx4SGQrk8A?identity__email=dossogne.bertrand%40gmail.com"
+                    }
+                ]
+            }
+        ]
     },
     "realisations": {
         "title": "Mon Travail"
