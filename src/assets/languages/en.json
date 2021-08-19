@@ -107,6 +107,11 @@
                 "icon": "boardgame"
             },
             {
+                "name": "Mathematics",
+                "desc": "Since middle school, mathematics have been for me a real pleasure to explore. I have participated multiple times because the intellectual challenge it procures have always been able to take all my attention. As of today, I am still eager to discover new puzzles and problems implying numbers and unknowns.",
+                "icon": "maths"
+            },
+            {
                 "name": "Pixel art",
                 "desc": "You might have noticed that just by seeing the few images that are on this website. Does it come from the fact that I started video games or is it because I've never been a good drawer ? Probably a bit of both. Even though I've not made a lot of pixel art myself, I enjoy making some and am a fan of the minimalism and the complexity it has to offer.",
                 "icon": "pixelart"
@@ -328,7 +333,7 @@
         ]
     },
     "realisations": {
-        "title": "Mon Travail",
+        "title": "My realisations",
         "used": "Technologies used",
         "test": "Test it",
         "repo": "Source code",
