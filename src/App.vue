@@ -1,28 +1,14 @@
 <template>
-    <main>
-        <section class="intro" id="intro">
-            <h1 class="title">{{introText}}</h1>
-            <div id="app">
-                {{message}}
-            </div>
-
-        </section>
-        <section class="about-me" id="about-me">
-
-        </section>
-        <section class="skills" id="skills">
-
-        </section>
-        <section class="realisations" id="realisations">
-
-        </section>
-    </main>
+  <Main />
 </template>
 
 <script>
-    export default {
-        props: {
-            
-        }
-    }
+import Main from './components/Main.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Main
+  }
+}
 </script>

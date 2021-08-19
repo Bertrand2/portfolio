@@ -1,32 +1,29 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "My portfolio",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "css": "sass --watch ./src/assets/style/main.scss ./src/assets/style/style.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bertrand2/portfolio.git"
-  },
-  "author": "Bertrand Dossogne",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bertrand2/portfolio/issues"
-  },
-  "homepage": "https://github.com/Bertrand2/portfolio#readme",
   "dependencies": {
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
-    "vuex": "^3.6.2"
-  },
-  "alias": {
-    "vue": "./node_modules/vue/dist/vue.common.js"
+    "core-js": "^3.6.5",
+    "sass": "^1.37.5",
+    "vue": "^3.0.0",
+    "vuex": "^4.0.0-0"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
-    "parcel-bundler": "^1.12.4",
-    "vue-template-compiler": "^2.6.12"
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2"
   }
 }

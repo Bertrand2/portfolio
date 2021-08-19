@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/cfLDPfRRRIeYl4xPk366QA"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/cfLDPfRRRIeYl4xPk366QA",
+  "badge": "https://api.badgr.io/public/badges/Pw3FI7ZcRyKfQfo0dK58OA",
+  "image": "https://api.badgr.io/public/assertions/cfLDPfRRRIeYl4xPk366QA/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "issuedOn": "2021-02-17T08:12:26.766616+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$2b4d48e5bca0a6d20bd269f700b5f273b711cbc42877c049f558fc4d536bcb21",
+    "salt": "ae8e7b1ac8c041b695c2fd429ed3702c"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <rect fill="#6CC4D0" height="400" width="400"/>
+    <polygon fill="#15232D" points="140 140 200 260 80 260" stroke="#15232D" stroke-width="4" transform="rotate(90 140 200)"/>
+    <polygon fill="#15232D" points="260 140 320 260 200 260" stroke="#15232D" stroke-width="4" transform="rotate(-90 260 200)"/>
+  </g>
+</svg>

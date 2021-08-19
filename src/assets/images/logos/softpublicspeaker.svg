@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/OxLsChi0REq9I9MkXwG8Ww"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/OxLsChi0REq9I9MkXwG8Ww",
+  "badge": "https://api.badgr.io/public/badges/3g--A5sMSquew2fiNfbdsQ",
+  "image": "https://api.badgr.io/public/assertions/OxLsChi0REq9I9MkXwG8Ww/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "narrative": "I like teaching to others.",
+  "issuedOn": "2021-02-11T13:12:01.260595+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$a49b18910d72d5782d1b06989032cb929bcc8abd44237467676f35087879d97d",
+    "salt": "1dd9f2bc103a4fe4a58064bedcb019da"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#15232D" points="242 0 282 80 202 80" transform="rotate(-180 242 40)"/>
+    <polygon fill="#15232D" points="120 80 160 160 80 160" transform="rotate(-180 120 120)"/>
+    <polygon fill="#15232D" points="80 0 120 80 40 80" transform="rotate(-180 80 40)"/>
+    <polygon fill="#15232D" points="2 0 42 80 -38 80" transform="rotate(-180 2 40)"/>
+    <polygon fill="#15232D" points="40 80 80 160 0 160" transform="rotate(-180 40 120)"/>
+    <polygon fill="#15232D" points="158 0 198 80 118 80" transform="rotate(-180 158 40)"/>
+    <polygon fill="#15232D" points="202 80 242 160 162 160" transform="rotate(-180 202 120)"/>
+    <polygon fill="#15232D" points="280 80 320 160 240 160" transform="rotate(-180 280 120)"/>
+    <polygon fill="#15232D" points="162 160 202 240 122 240" transform="rotate(-180 162 200)"/>
+    <polygon fill="#15232D" points="80 160 120 240 40 240" transform="rotate(-180 80 200)"/>
+    <polygon fill="#15232D" points="0 160 40 240 -40 240" transform="rotate(-180 0 200)"/>
+    <polygon fill="#15232D" points="360 80 400 160 320 160" transform="rotate(-180 360 120)"/>
+    <polygon fill="#15232D" points="320 0 360 80 280 80" transform="rotate(-180 320 40)"/>
+    <polygon fill="#15232D" points="400 0 440 80 360 80" transform="rotate(-180 400 40)"/>
+    <polygon fill="#15232D" points="320 160 360 240 280 240" transform="rotate(-180 320 200)"/>
+    <polygon fill="#15232D" points="402 160 442 240 362 240" transform="rotate(-180 402 200)"/>
+    <polygon fill="#15232D" points="238 160 278 240 198 240" transform="rotate(-180 238 200)"/>
+    <polygon fill="#63C3D1" points="202 280 242 360 162 360"/>
+  </g>
+</svg>

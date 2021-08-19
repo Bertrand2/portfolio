@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/qw86JoNfTgCb9q7BMM3a7w"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/qw86JoNfTgCb9q7BMM3a7w",
+  "badge": "https://api.badgr.io/public/badges/cI8AnrS7SmGvjC1Jr5EsQw",
+  "image": "https://api.badgr.io/public/assertions/qw86JoNfTgCb9q7BMM3a7w/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "issuedOn": "2021-02-16T15:16:25.280413+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$cea87d5f780cfab1522f8d76c99237a81a7bef2e219846f6e92a76e7fc5febec",
+    "salt": "f598213b82fa48918b22d52a888e8bd8"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#15232D" points="197.5 35 360 360 35 360" transform="matrix(0 -1 1 0 0 395)"/>
+    <polygon fill="#63C3D1" points="135 135 195 255 75 255" transform="rotate(90 135 195)"/>
+  </g>
+</svg>

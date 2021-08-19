@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/95N9losYRT68pIxlbtZ1nQ"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/95N9losYRT68pIxlbtZ1nQ",
+  "badge": "https://api.badgr.io/public/badges/wmsi6BVQQdun7xp23zQUtA",
+  "image": "https://api.badgr.io/public/assertions/95N9losYRT68pIxlbtZ1nQ/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "issuedOn": "2021-02-17T08:13:12.461365+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$44e40ca021a4b6c2eeb2516e5d83aed33fe110593e2a76a6b1b979f078be55a6",
+    "salt": "c696547515d045d0be7c942b37ac2e49"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M280,160 L320,240 L240,240 L280,160 Z M280,160 L240,240 L160,80 L240,80 L280,160 Z" fill="#15232D"/>
+    <polygon fill="#63C3D1" points="280 320 240 240 320 240"/>
+    <polygon fill="#15232D" points="280 320 269.999 340 40 340 40 320"/>
+  </g>
+</svg>

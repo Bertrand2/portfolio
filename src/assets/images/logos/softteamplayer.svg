@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/vP6ZZOCCStmTEzDkqV46mA"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/vP6ZZOCCStmTEzDkqV46mA",
+  "badge": "https://api.badgr.io/public/badges/Zlp0nphTTMKxIwgEO14cDw",
+  "image": "https://api.badgr.io/public/assertions/vP6ZZOCCStmTEzDkqV46mA/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "narrative": "I like to help and support people when they have difficulties or technical questions and try to assist them as much as possible.",
+  "issuedOn": "2021-01-25T10:00:33.287372+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$64fd121a26da6bc2d168ba074f2b7b395d15d74649804603b00da952de162de6",
+    "salt": "90d131f63b6a40b8843977f668848d62"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#63C3D1" points="200 280 240 360 160 360"/>
+    <polygon fill="#15232D" points="120 280 160 360 80 360"/>
+    <polygon fill="#15232D" points="160 200 200 280 120 280"/>
+    <polygon fill="#15232D" points="200 120 240 200 160 200"/>
+    <polygon fill="#15232D" points="240 200 280 280 200 280"/>
+    <polygon fill="#15232D" points="280 280 320 360 240 360"/>
+  </g>
+</svg>

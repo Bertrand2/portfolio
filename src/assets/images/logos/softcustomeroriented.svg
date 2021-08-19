@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/p2WSENwfTEy2eRwRPpWyWA"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/p2WSENwfTEy2eRwRPpWyWA",
+  "badge": "https://api.badgr.io/public/badges/pu0x3JnwQB2sj4nhkYQp8g",
+  "image": "https://api.badgr.io/public/assertions/p2WSENwfTEy2eRwRPpWyWA/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "narrative": "I've been working on the technical solutions in order to get the user experience asked in the project instructions.  I've also been explaining to my team and other BeCode members different technical concepts that helped to grasp many aspects of the programming side.",
+  "issuedOn": "2021-04-06T07:34:03.656719+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$34360a727e0859d992e4c985209e5bacdd38bc4c3d6fb56c22d20f3f2775fcea",
+    "salt": "8aeecbce7eb44635a73f0978c52530c6"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#63C3D1" points="280 80 360 240 200 240"/>
+    <polygon fill="#15232D" points="120 80 200 240 40 240"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="400" viewBox="0 0 400 400" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:openbadges="http://openbadges.org"><openbadges:assertion verify="https://api.badgr.io/public/assertions/QjZMyjQcTuKHnn6IfHFKCQ"><![CDATA[{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://api.badgr.io/public/assertions/QjZMyjQcTuKHnn6IfHFKCQ",
+  "badge": "https://api.badgr.io/public/badges/UKO8--95RL2VhjDjvmHEuw",
+  "image": "https://api.badgr.io/public/assertions/QjZMyjQcTuKHnn6IfHFKCQ/image",
+  "verification": {
+    "type": "HostedBadge"
+  },
+  "issuedOn": "2021-02-11T13:12:03.466950+00:00",
+  "recipient": {
+    "hashed": true,
+    "type": "email",
+    "identity": "sha256$50080fdca41aeb7a9112f535fc3793f34fc4fdb099d9019a509d0f6909345910",
+    "salt": "47cd833eadea4ed898a39b373be8edfc"
+  }
+}]]></openbadges:assertion>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#15232D" points="240 280 280 360 200 360" transform="rotate(-90 240 320)"/>
+    <polygon fill="#15232D" points="160 160 200 240 120 240" transform="rotate(-90 160 200)"/>
+    <polygon fill="#15232D" points="240 120 280 200 200 200" transform="rotate(-90 240 160)"/>
+    <polygon fill="#15232D" points="240 200 280 280 200 280" transform="rotate(-90 240 240)"/>
+    <polygon fill="#15232D" points="160 240 200 320 120 320" transform="rotate(-90 160 280)"/>
+    <polygon fill="#15232D" points="80 200 120 280 40 280" transform="rotate(-90 80 240)"/>
+    <polygon fill="#63C3D1" points="320 40 360 120 280 120" transform="rotate(90 320 80)"/>
+    <polygon fill="#63C3D1" points="281 60 301 100 261 100" transform="matrix(0 1 1 0 201 -201)"/>
+    <polygon fill="#15232D" points="280 220 300 260 260 260" transform="rotate(90 280 240)"/>
+  </g>
+</svg>
