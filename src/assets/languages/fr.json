@@ -433,8 +433,8 @@
                     "Nodejs"
                 ],
                 "image":"boardgame",
-                "repoLink":"https://github.com/Bertrand2/portfolio",
-                "testLink":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                "repoLink":"https://github.com/Bertrand2/boardgame-classes/",
+                "testLink":"https://bertrand2.github.io/boardgame-classes/"
             },
             {
                 "title":"Humour récursif",
